@@ -92,7 +92,7 @@ public class Task2 {
      */
     int schoolDesks(int num1, int num2, int num3) {
 
-        return (int )(num1+1) + (int )(num2+1)+ (int )(num3+1); //your code here
+        return (int )((num1+1)/2) + (int )((num2+1)/2)+ (int )((num3+1)/2); //your code here
     }
 
     /**
