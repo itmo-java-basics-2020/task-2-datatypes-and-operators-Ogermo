@@ -64,8 +64,13 @@ public class Task2 {
      * Даны два вещественных числа. Определите равны ли они
      */
     boolean areRealNumbersEqual(double a, double b) {
-
-        return (a - b) < 0.000_001; //your code here
+        if (a==b){
+            return true;
+        }
+        if (a>b){
+            return(a - b) < 0.000_001;
+        }
+        return(b - a) < 0.000_001; //your code here
     }
 
     /**
